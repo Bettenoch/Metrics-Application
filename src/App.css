@@ -1,0 +1,29 @@
+
+.active-member-button {
+  background-color: green;
+  color: white;
+}
+
+.not-a-member-button {
+  background-color: grey;
+  color: white;
+}
+
+.join-mission {
+  border: 1px solid red;
+  color: red;
+  border-radius: 4px;
+}
+
+.not-join-mission {
+  border: 1px solid black;
+  color: black;
+  border-radius: 4px;
+}
+
+.myProfile-items {
+  width: 30%;
+  height: 20px;
+  border: 1px solid grey;
+  margin-top: 4px;
+}

@@ -1,0 +1,50 @@
+.rockets-holder {
+  display: flex;
+  gap: 2rem;
+  padding: 1rem 2rem;
+}
+
+.rocket-img {
+  width: 10rem;
+}
+
+.img-info {
+  display: flex;
+  gap: 1rem;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.rocket-name {
+  font-size: 1.3rem;
+  font-weight: 400;
+  color: rgb(18, 17, 17);
+}
+
+.reserve-descp {
+  display: flex;
+  align-items: flex-start;
+}
+
+.reserve-popup {
+  color: #fff;
+  background-color: rgb(36, 216, 226);
+  margin-right: 3px;
+  border-radius: 2px;
+  padding: 2px;
+}
+
+.cancel-booking {
+  color: rgba(24, 23, 23, 0.511);
+  border: 1px solid rgb(24, 23, 23);
+  border-radius: 2px;
+  padding: 5px;
+}
+
+.reserve-booking {
+  color: #fff;
+  background-color: rgb(29, 135, 247);
+  border: none;
+  border-radius: 2px;
+  padding: 6px;
+}
