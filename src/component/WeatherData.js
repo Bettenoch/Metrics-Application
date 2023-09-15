@@ -3,6 +3,7 @@ import { useEffect, useState } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
 import { fetchData } from '../redux/AppSlice';
 import '../styles/WeatherData.css';
+import 'boxicons';
 import world from './assets/world.png';
 import tanzania from './assets/tanzaniamap.gif';
 import kenya from './assets/kenyamap.gif';
@@ -54,14 +55,21 @@ const WeatherData = () => {
   return (
     <>
       <header className="main-container">
-        <p className="home-title">WeatherChart</p>
-        <input
-          className="search-bar"
-          type="text"
-          placeholder="Search Country e.g kenya"
-          value={search}
-          onChange={handleCountry}
-        />
+        <div className="left">
+          <h1 className="home-title">WeatherChart</h1>
+
+        </div>
+        <div className="icons">
+          <input
+            className="search-bar"
+            type="text"
+            placeholder="Search Country e.g kenya"
+            value={search}
+            onChange={handleCountry}
+          />
+          <box-icon name="microphone" type="solid" color="#f9ebeb" />
+          <box-icon name="cog" type="solid" color="#ece7e7" />
+        </div>
 
       </header>
       <section className="world-container">
@@ -81,8 +89,8 @@ const WeatherData = () => {
                   <img
                     src={countryMap[country.name]}
                     alt={country.name}
-                    width={120}
-                    height={120}
+                    className="img-map"
+
                   />
                 )}
 
