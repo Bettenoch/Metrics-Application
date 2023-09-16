@@ -1,5 +1,5 @@
-import React, { useEffect, useState } from 'react';
 import { Link } from 'react-router-dom';
+import { useEffect, useState } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
 import { fetchData } from '../redux/AppSlice';
 import '../styles/WeatherData.css';
@@ -54,19 +54,14 @@ const WeatherData = () => {
   return (
     <>
       <header className="main-container">
-        <div className="left">
-          <h1 className="home-title">WeatherChart</h1>
-
-        </div>
-        <div className="icons">
-          <input
-            className="search-bar"
-            type="text"
-            placeholder="Search Country e.g kenya"
-            value={search}
-            onChange={handleCountry}
-          />
-        </div>
+        <p className="home-title">WeatherChart</p>
+        <input
+          className="search-bar"
+          type="text"
+          placeholder="Search Country e.g kenya"
+          value={search}
+          onChange={handleCountry}
+        />
 
       </header>
       <section className="world-container">
@@ -86,8 +81,8 @@ const WeatherData = () => {
                   <img
                     src={countryMap[country.name]}
                     alt={country.name}
-                    className="img-map"
-
+                    width={120}
+                    height={120}
                   />
                 )}
 
