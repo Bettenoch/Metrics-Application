@@ -1,5 +1,5 @@
+import React, { useEffect, useState } from 'react';
 import { Link } from 'react-router-dom';
-import { useEffect, useState } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
 import { fetchData } from '../redux/AppSlice';
 import '../styles/WeatherData.css';
@@ -66,8 +66,6 @@ const WeatherData = () => {
             value={search}
             onChange={handleCountry}
           />
-          <box-icon name="microphone" type="solid" color="#f9ebeb" />
-          <box-icon name="cog" type="solid" color="#ece7e7" />
         </div>
 
       </header>

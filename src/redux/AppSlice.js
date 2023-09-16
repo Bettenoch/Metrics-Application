@@ -15,7 +15,7 @@ export const fetchData = createAsyncThunk(
   async () => {
     try {
       const info = countries.map(async (country) => {
-        const res = await fetch(`https://api.openweathermap.org/data/2.5/weather?q=${country}&appid=dfc3ab73912ff43cab2c036dc6f9a0d5&units=metric`);
+        const res = await fetch(`https://api.openweathermap.org/data/2.5/weather?q=${country}&appid=79952fdb7f36f6010ec7ba63632e61a4&units=metric`);
         if (!res.ok) {
           throw new Error('Something went wrong please try again!!');
         }
