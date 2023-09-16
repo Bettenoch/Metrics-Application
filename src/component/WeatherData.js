@@ -3,7 +3,6 @@ import { useEffect, useState } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
 import { fetchData } from '../redux/AppSlice';
 import '../styles/WeatherData.css';
-import 'boxicons';
 import world from './assets/world.png';
 import tanzania from './assets/tanzaniamap.gif';
 import kenya from './assets/kenyamap.gif';
