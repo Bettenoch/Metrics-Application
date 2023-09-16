@@ -48,7 +48,7 @@ const WeatherData = () => {
   }
 
   if (error) {
-    return <h1>Error fetching data</h1>;
+    return <h1>Error fetching data please try again</h1>;
   }
 
   return (
