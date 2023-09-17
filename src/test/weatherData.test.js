@@ -24,6 +24,10 @@ describe('testing page elements', () => {
     const weatherHd = testData.Status;
     expect(weatherHd).toBe(testData.Status);
   });
+  it('MockState should return the weather error', () => {
+    const weatherError = testData.error;
+    expect(weatherError).toBe(testData.error);
+  });
   it('should give correct country name ', async () => {
     render(
       <Provider store={store}>
