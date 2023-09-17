@@ -138,11 +138,12 @@ All prerequisites for the second stage of the project, focused on Components, ha
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-[https://bettenoch.github.io/Metrics-Application/]
+<a href="https://weather-app-wd6h.onrender.com/">Live Link</a>
 
 ## 🚀 Live Recording <a name="live-demo"></a>
 
 [https://www.loom.com/share/b06edea508c24138b9594993695739b7?sid=e69830e0-18e0-464d-b79b-ba6ac2603192]
+<a href="https://www.loom.com/share/b06edea508c24138b9594993695739b7?sid=e69830e0-18e0-464d-b79b-ba6ac2603192">Loom</a>
 
 ## 💻 Getting Started <a name="getting-started"></a>
 
