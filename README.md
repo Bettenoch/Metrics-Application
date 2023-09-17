@@ -142,7 +142,7 @@ All prerequisites for the second stage of the project, focused on Components, ha
 
 ## 🚀 Live Recording <a name="live-demo"></a>
 
-[https://www.loom.com/share/2ffcacb866b1452faeb0098876160e14?sid=cfccfa88-21f8-4847-b121-0ee044fac573]
+[https://www.loom.com/share/b06edea508c24138b9594993695739b7?sid=e69830e0-18e0-464d-b79b-ba6ac2603192]
 
 ## 💻 Getting Started <a name="getting-started"></a>
 
