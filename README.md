@@ -138,7 +138,7 @@ All prerequisites for the second stage of the project, focused on Components, ha
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-[https://bettenoch.github.io/Weather-Application/]
+[https://bettenoch.github.io/Metrics-Application/]
 
 ## 🚀 Live Recording <a name="live-demo"></a>
 
