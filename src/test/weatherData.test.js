@@ -10,7 +10,7 @@ const mockStore = configureStore(middlewares);
 
 it('should render App Component', () => {
   const initialState = {
-    cases: 567465,
+    unit: 567465,
     continent: 'Europe',
     countries: ['Germany', 'Netherlands'],
   };
@@ -26,7 +26,7 @@ it('should render App Component', () => {
 
 test('Should Render App Component', () => {
   const initialState = {
-    cases: 758746,
+    unit: 758746,
     continent: 'North America',
     countries: ['USA', 'Canada'],
   };
