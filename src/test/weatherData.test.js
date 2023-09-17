@@ -1,42 +1,40 @@
-import React from 'react';
-import { BrowserRouter } from 'react-router-dom';
 import { render, screen } from '@testing-library/react';
 import { Provider } from 'react-redux';
-import store from '../redux/store';
-import WeatherData from '../component/WeatherData';
+import '@testing-library/jest-dom';
+import logger from 'redux-logger';
+import configureStore from 'redux-mock-store';
+import App from '../App';
 
-describe('testing page elements', () => {
-  const testData = {
-    weather: [
-      { main: { temp: 18.46 } },
-      { name: 'Kenya' },
-    ],
-    Status: false,
-    error: null,
+const middlewares = [logger];
+const mockStore = configureStore(middlewares);
+
+it('should render App Component', () => {
+  const initialState = {
+    cases: 567465,
+    continent: 'Europe',
+    countries: ['Germany', 'Netherlands'],
   };
+  const store = mockStore({ continentReducer: initialState });
+  render(
+    <Provider store={store}>
+      <App />
+    </Provider>,
+  );
+  const textElement = screen.getByText(/Global Pandemic/i);
+  expect(textElement).toBeInTheDocument();
+});
 
-  it('Test weather data', () => {
-    const weatherDetails = testData.weather;
-    expect(weatherDetails).toEqual(testData.weather);
-  });
-
-  it('Should return weather status', () => {
-    const weatherHd = testData.Status;
-    expect(weatherHd).toBe(testData.Status);
-  });
-  it('MockState should return the weather error', () => {
-    const weatherError = testData.error;
-    expect(weatherError).toBe(testData.error);
-  });
-  it('should give correct country name ', async () => {
-    render(
-      <Provider store={store}>
-        <BrowserRouter>
-          <WeatherData />
-        </BrowserRouter>
-      </Provider>,
-    );
-    const info = screen.findByText('World Weather');
-    expect(info).toMatchSnapshot();
-  });
+test('Should Render App Component', () => {
+  const initialState = {
+    cases: 758746,
+    continent: 'North America',
+    countries: ['USA', 'Canada'],
+  };
+  const store = mockStore({ continentReducer: initialState });
+  const tree = render(
+    <Provider store={store}>
+      <App />
+    </Provider>,
+  );
+  expect(tree).toMatchSnapshot();
 });
