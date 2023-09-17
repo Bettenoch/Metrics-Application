@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/Metric-Application/static/css/main.641c59bf.css",
-    "main.js": "/Metric-Application/static/js/main.539a1c0c.js",
-    "static/js/787.bfd02cd8.chunk.js": "/Metric-Application/static/js/787.bfd02cd8.chunk.js",
-    "static/media/world.png": "/Metric-Application/static/media/world.841f0bbc8bbd23a1e836.png",
-    "static/media/camerounmap.gif": "/Metric-Application/static/media/camerounmap.48f07affe591d0411eb4.gif",
-    "static/media/ethiopiamap.gif": "/Metric-Application/static/media/ethiopiamap.655dcc6a99b4aecba1b7.gif",
-    "static/media/kenyamap.gif": "/Metric-Application/static/media/kenyamap.ef52c057be3b0ecd9639.gif",
-    "static/media/rwanda07map.gif": "/Metric-Application/static/media/rwanda07map.c3ff1b51ebecb12df56e.gif",
-    "static/media/somaliamap.gif": "/Metric-Application/static/media/somaliamap.a649efc00f3cc8093656.gif",
-    "static/media/humidity1.png": "/Metric-Application/static/media/humidity1.2ece0eef4eb56c68ed36.png",
-    "static/media/windwarningsign.png": "/Metric-Application/static/media/windwarningsign.7c6704606dc2dbf97bc7.png",
-    "index.html": "/Metric-Application/index.html",
-    "main.641c59bf.css.map": "/Metric-Application/static/css/main.641c59bf.css.map",
-    "main.539a1c0c.js.map": "/Metric-Application/static/js/main.539a1c0c.js.map",
-    "787.bfd02cd8.chunk.js.map": "/Metric-Application/static/js/787.bfd02cd8.chunk.js.map"
+    "main.css": "/Metrics-Application/static/css/main.641c59bf.css",
+    "main.js": "/Metrics-Application/static/js/main.14d1ba73.js",
+    "static/js/787.bfd02cd8.chunk.js": "/Metrics-Application/static/js/787.bfd02cd8.chunk.js",
+    "static/media/world.png": "/Metrics-Application/static/media/world.841f0bbc8bbd23a1e836.png",
+    "static/media/camerounmap.gif": "/Metrics-Application/static/media/camerounmap.48f07affe591d0411eb4.gif",
+    "static/media/ethiopiamap.gif": "/Metrics-Application/static/media/ethiopiamap.655dcc6a99b4aecba1b7.gif",
+    "static/media/kenyamap.gif": "/Metrics-Application/static/media/kenyamap.ef52c057be3b0ecd9639.gif",
+    "static/media/rwanda07map.gif": "/Metrics-Application/static/media/rwanda07map.c3ff1b51ebecb12df56e.gif",
+    "static/media/somaliamap.gif": "/Metrics-Application/static/media/somaliamap.a649efc00f3cc8093656.gif",
+    "static/media/humidity1.png": "/Metrics-Application/static/media/humidity1.2ece0eef4eb56c68ed36.png",
+    "static/media/windwarningsign.png": "/Metrics-Application/static/media/windwarningsign.7c6704606dc2dbf97bc7.png",
+    "index.html": "/Metrics-Application/index.html",
+    "main.641c59bf.css.map": "/Metrics-Application/static/css/main.641c59bf.css.map",
+    "main.14d1ba73.js.map": "/Metrics-Application/static/js/main.14d1ba73.js.map",
+    "787.bfd02cd8.chunk.js.map": "/Metrics-Application/static/js/787.bfd02cd8.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.641c59bf.css",
-    "static/js/main.539a1c0c.js"
+    "static/js/main.14d1ba73.js"
   ]
 }
