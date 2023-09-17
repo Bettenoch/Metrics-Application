@@ -6,7 +6,7 @@
 # 📗 Table of Contents
 
 - [📗 Table of Contents](#-table-of-contents)
-- [📖 Metrics Application ](#-Metrics Application-)
+- [📖 Weather Application ](#-Metrics Application-)
     - [How to build the "Metrics Application" website](#how-to-build-the-Metrics Application-website)
   - [🛠 Walk through ](#-walk-through-)
   - [🛠 Built With ](#-built-with-)
@@ -29,7 +29,7 @@
   - [🙏 Acknowledgments ](#-acknowledgments-)
   - [📝 License ](#-license-)
 
-# 📖 Space Travelers <a name="about-project"></a>
+# 📖 Weather Application <a name="about-project"></a>
 
 "Metrics Application" involves the development of a Single Page application using an external API.
 
@@ -142,7 +142,7 @@ All prerequisites for the second stage of the project, focused on Components, ha
 
 ## 🚀 Live Recording <a name="live-demo"></a>
 
-[Coming Soon]
+[https://www.loom.com/share/2ffcacb866b1452faeb0098876160e14?sid=cfccfa88-21f8-4847-b121-0ee044fac573]
 
 ## 💻 Getting Started <a name="getting-started"></a>
 
@@ -232,6 +232,7 @@ If you like this project give a star to this repositiory.
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
+I would like to thank MR. Nelson Sakwa on Behance for providing such an amazing design.
 
 I would like to thank the Microverse full-stack curriculum for the inspiration and guidance.
 
