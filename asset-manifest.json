@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/static/css/main.641c59bf.css",
-    "main.js": "/static/js/main.c4decc6f.js",
-    "static/js/787.bfd02cd8.chunk.js": "/static/js/787.bfd02cd8.chunk.js",
-    "static/media/world.png": "/static/media/world.841f0bbc8bbd23a1e836.png",
-    "static/media/camerounmap.gif": "/static/media/camerounmap.48f07affe591d0411eb4.gif",
-    "static/media/ethiopiamap.gif": "/static/media/ethiopiamap.655dcc6a99b4aecba1b7.gif",
-    "static/media/kenyamap.gif": "/static/media/kenyamap.ef52c057be3b0ecd9639.gif",
-    "static/media/rwanda07map.gif": "/static/media/rwanda07map.c3ff1b51ebecb12df56e.gif",
-    "static/media/somaliamap.gif": "/static/media/somaliamap.a649efc00f3cc8093656.gif",
-    "static/media/humidity1.png": "/static/media/humidity1.2ece0eef4eb56c68ed36.png",
-    "static/media/windwarningsign.png": "/static/media/windwarningsign.7c6704606dc2dbf97bc7.png",
-    "index.html": "/index.html",
-    "main.641c59bf.css.map": "/static/css/main.641c59bf.css.map",
-    "main.c4decc6f.js.map": "/static/js/main.c4decc6f.js.map",
-    "787.bfd02cd8.chunk.js.map": "/static/js/787.bfd02cd8.chunk.js.map"
+    "main.css": "/Metrics-Application/static/css/main.641c59bf.css",
+    "main.js": "/Metrics-Application/static/js/main.2a71e8ea.js",
+    "static/js/787.bfd02cd8.chunk.js": "/Metrics-Application/static/js/787.bfd02cd8.chunk.js",
+    "static/media/world.png": "/Metrics-Application/static/media/world.841f0bbc8bbd23a1e836.png",
+    "static/media/camerounmap.gif": "/Metrics-Application/static/media/camerounmap.48f07affe591d0411eb4.gif",
+    "static/media/ethiopiamap.gif": "/Metrics-Application/static/media/ethiopiamap.655dcc6a99b4aecba1b7.gif",
+    "static/media/kenyamap.gif": "/Metrics-Application/static/media/kenyamap.ef52c057be3b0ecd9639.gif",
+    "static/media/rwanda07map.gif": "/Metrics-Application/static/media/rwanda07map.c3ff1b51ebecb12df56e.gif",
+    "static/media/somaliamap.gif": "/Metrics-Application/static/media/somaliamap.a649efc00f3cc8093656.gif",
+    "static/media/humidity1.png": "/Metrics-Application/static/media/humidity1.2ece0eef4eb56c68ed36.png",
+    "static/media/windwarningsign.png": "/Metrics-Application/static/media/windwarningsign.7c6704606dc2dbf97bc7.png",
+    "index.html": "/Metrics-Application/index.html",
+    "main.641c59bf.css.map": "/Metrics-Application/static/css/main.641c59bf.css.map",
+    "main.2a71e8ea.js.map": "/Metrics-Application/static/js/main.2a71e8ea.js.map",
+    "787.bfd02cd8.chunk.js.map": "/Metrics-Application/static/js/787.bfd02cd8.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.641c59bf.css",
-    "static/js/main.c4decc6f.js"
+    "static/js/main.2a71e8ea.js"
   ]
 }
