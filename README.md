@@ -138,7 +138,7 @@ All prerequisites for the second stage of the project, focused on Components, ha
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-[Coming Soon]
+https://todays-pandemic-status-app.onrender.com/
 
 ## 🚀 Live Recording <a name="live-demo"></a>
 
