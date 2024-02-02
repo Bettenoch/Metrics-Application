@@ -1,7 +1,7 @@
 <a name="readme-top"></a>
 
 
-<h1>React Single Page App</h1>
+<h1>WEATHER METRICS APPLICATION</h1>
 
 # 📗 Table of Contents
 
